@@ -1,0 +1,276 @@
+* {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header component */
+
+nav {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  color: #111b47;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  width: 800px;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  font-family: "Roboto";
+  font-weight: normal;
+  color: #505f98;
+  text-decoration: none;
+  width: 100px;
+  display: block;
+}
+
+a:hover {
+  color: #505e98ca;
+}
+
+a:active {
+  color: red;
+}
+
+.navbar-logo {
+  position: absolute;
+  color: #37447e;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 38px;
+  font-style: normal;
+}
+
+/* Button component */
+
+.btn1 {
+  display: flex;
+  font-family: "Roboto";
+  background-color: #111b47;
+  color: #ffffff;
+  border: none;
+  width: 160px;
+  height: 26px;
+  border-radius: 0.25rem;
+  box-shadow: 0px 4px hsla(0, 0%, 62%, 0.262);
+  justify-content: center;
+  align-items: center;
+  margin-left: 500px;
+  margin-right: -100px;
+  cursor: pointer;
+}
+
+.btn1:active {
+  background-color: #37447e;
+}
+
+.btn2 {
+  display: flex;
+  font-family: "Roboto";
+  background-color: #111b47;
+  color: #ffffff;
+  border: none;
+  width: 140px;
+  height: 35px;
+  border-radius: 0.25rem;
+  box-shadow: 0px 4px hsla(0, 0%, 62%, 0.262);
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.btn2:active {
+  background-color: #37447e;
+}
+
+.btn3 {
+  display: flex;
+  font-family: "Roboto";
+  background-color: white;
+  color: #111b47;
+  border: 3px solid #111b47;
+  width: 140px;
+  height: 35px;
+  border-radius: 0.25rem;
+  box-shadow: 0px 4px hsla(0, 0%, 62%, 0.262);
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.btn3:active {
+  background-color: #e7ecff;
+}
+
+.btn2-div {
+  width: 350px;
+  height: 35px;
+}
+
+.btn3-div {
+  width: 350px;
+  height: 35px;
+}
+
+.btn-section {
+  display: flex;
+  column-gap: 20px;
+  height: 35px;
+  width: 350px;
+  align-items: center;
+  padding-left: 250px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.page1-text h1,
+.page2-text h1 {
+  font-family: "Roboto";
+  height: 100%;
+  width: 40%;
+  margin-left: 250px;
+  margin-top: 250px;
+  color: #091133;
+  font-weight: 500;
+  font-size: 60px;
+}
+
+.page3-text h1, .page4-text h1, .page5-text h1 {
+  font-family: "Roboto";
+  height: 100%;
+  width: 40%;
+  margin-left: 800px;
+  margin-top: 50px;
+  color: #091133;
+  font-weight: 500;
+  font-size: 60px;
+}
+
+.page2-text h1 {
+  margin-top: 120px;
+}
+
+.page1-paragraph p,
+.page2-paragraph p {
+  font-family: "Roboto";
+  height: 100%;
+  width: 20%;
+  margin-left: 250px;
+  color: #505f98;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.page3-paragraph p, .page4-paragraph, .page5-paragraph {
+  margin-left: 800px;
+  font-family: "Roboto";
+  height: 100%;
+  width: 20%;
+  color: #505f98;
+  font-weight: 400;
+  font-size: 20px;
+}
+.page1,
+.page2 {
+  background-position: bottom right;
+  border: 1px solid transparent;
+}
+
+.page1-image,
+.page2-image {
+  background-repeat: no-repeat;
+  height: 110vh;
+  background-position: top right;
+  border: 1px solid transparent;
+  margin-right: 15%;
+}
+
+
+.page1-image {
+  background-image: url("./assets/background.jpg");
+  background-size: 70%;
+}
+
+.page2-image {
+  background-image: url("./assets/page2.jpg");
+  background-size: 35%;
+  margin-right: 10%;
+}
+
+.page3-image, .page4-image, .page5-image {
+  background-repeat: no-repeat;
+  height: 110vh;
+  background-position: top left;
+  border: 1px solid transparent;
+  background-size: 35%;
+  margin-left: 15%;
+}
+
+.page3-image {
+  background-image: url("./assets/page3.jpg");
+  
+}
+
+.page4-image {
+  background-image: url("./assets/page4.jpg");
+  
+}
+
+.page5-image {
+  background-image: url("./assets/page5.jpg");
+  
+}
+
+.icon-section,
+.icon-para-section {
+  display: flex;
+  justify-content: left;
+  padding-left: 210px;
+}
+
+.icn1-div,
+.icn1-para-div {
+  display: inline-block;
+  height: 100%;
+  margin: 10px;
+  margin-right: 200px;
+}
+
+.icn1-div {
+  margin-right: 230px;
+}
+
+.icn1-div img,
+.icn1-para-div p {
+  height: 110%;
+  width: 100%;
+}
+
+.icn1-para-div p {
+  width: 250px;
+  margin-right: -150px;
+  margin-left: 30px;
+}
