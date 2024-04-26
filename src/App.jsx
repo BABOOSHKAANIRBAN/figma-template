@@ -1,20 +1,22 @@
 import "./App.css";
-import Body from "./Body";
+import Page1 from "./Page components/Page1";
 import Header from "./Header";
-import Page from "./Page";
-import Page3 from "./Page3";
-import Page4 from "./Page4";
-import Page5 from "./Page5";
+import Page2 from "./Page components/Page2";
+import Page3 from "./Page components/Page3";
+import Page4 from "./Page components/Page4";
+import Page5 from "./Page components/Page5";
+import Footer from "./Page components/Footer";
 
 function App() {
   return (
     <>
       <Header />
-      <Body />
-      <Page />
+      <Page1 />
+      <Page2 />
       <Page3 />
       <Page4 />
       <Page5 />
+      <Footer />
     </>
   );
 }

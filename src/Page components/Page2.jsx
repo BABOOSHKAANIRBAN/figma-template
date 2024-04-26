@@ -1,6 +1,6 @@
-import icon1 from "./assets/Icon.jpg";
+import icon1 from "../assets/Icon.jpg";
 
-function Page() {
+function Page2() {
   return (
     <>
       <div className="page2">
@@ -48,4 +48,4 @@ function Page() {
   );
 }
 
-export default Page;
+export default Page2;

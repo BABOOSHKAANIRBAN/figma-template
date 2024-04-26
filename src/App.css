@@ -6,7 +6,8 @@
 
 /* Header component */
 
-nav {
+nav,
+footer {
   position: relative;
   display: flex;
   justify-content: center;
@@ -16,24 +17,47 @@ nav {
   color: #111b47;
 }
 
-.navbar ul {
+#footer1,
+#footer2 {
+  height: 140px;
+  background-color: #e7ecff;
+}
+
+#footer2 {
+  height: 76px;
+}
+
+.navbar ul,
+.footer1-section ul,
+.footer2-section ul {
   list-style: none;
   display: flex;
   justify-content: flex-start;
   width: 800px;
 }
 
-.navbar li {
+.navbar li,
+.footer1-section li,
+.footer2-section li {
   display: inline-block;
 }
 
-.navbar a {
+.navbar a,
+.footer1-section a,
+.footer2-section a,
+.footer1-section p {
   font-family: "Roboto";
   font-weight: normal;
   color: #505f98;
   text-decoration: none;
   width: 100px;
   display: block;
+}
+
+.footer1-section p {
+  margin-right: 600px;
+  width: 30%;
+  color: #b0b8bc;
 }
 
 a:hover {
@@ -44,15 +68,20 @@ a:active {
   color: red;
 }
 
-.navbar-logo {
+.navbar-logo,
+.footer1-logo,
+.footer2-logo {
   position: absolute;
   color: #37447e;
   margin-left: auto;
   margin-right: auto;
-  font-weight: 900;
   font-size: 26px;
   line-height: 38px;
-  font-style: normal;
+}
+
+.footer1-logo,
+.footer2-logo {
+  font-size: 20px;
 }
 
 /* Button component */
@@ -78,7 +107,8 @@ a:active {
   background-color: #37447e;
 }
 
-.btn2 {
+.btn2,
+.btn4 {
   display: flex;
   font-family: "Roboto";
   background-color: #111b47;
@@ -97,7 +127,12 @@ a:active {
   font-size: 15px;
 }
 
-.btn2:active {
+.btn4 {
+  margin-left: 800px;
+}
+
+.btn2:active,
+.btn4:active {
   background-color: #37447e;
 }
 
@@ -124,7 +159,8 @@ a:active {
   background-color: #e7ecff;
 }
 
-.btn2-div {
+.btn2-div,
+.btn4-div {
   width: 350px;
   height: 35px;
 }
@@ -158,7 +194,15 @@ a:active {
   font-size: 60px;
 }
 
-.page3-text h1, .page4-text h1, .page5-text h1 {
+.page3-text,
+.page4-text,
+.page5-text {
+  margin-top: 20%;
+}
+
+.page3-text h1,
+.page4-text h1,
+.page5-text h1 {
   font-family: "Roboto";
   height: 100%;
   width: 40%;
@@ -184,7 +228,10 @@ a:active {
   font-size: 20px;
 }
 
-.page3-paragraph p, .page4-paragraph, .page5-paragraph {
+.page3-paragraph p,
+.page4-paragraph p,
+.page5-paragraph p {
+  margin-top: -230px;
   margin-left: 800px;
   font-family: "Roboto";
   height: 100%;
@@ -193,10 +240,10 @@ a:active {
   font-weight: 400;
   font-size: 20px;
 }
+
 .page1,
 .page2 {
   background-position: bottom right;
-  border: 1px solid transparent;
 }
 
 .page1-image,
@@ -207,7 +254,6 @@ a:active {
   border: 1px solid transparent;
   margin-right: 15%;
 }
-
 
 .page1-image {
   background-image: url("./assets/background.jpg");
@@ -220,7 +266,9 @@ a:active {
   margin-right: 10%;
 }
 
-.page3-image, .page4-image, .page5-image {
+.page3-image,
+.page4-image,
+.page5-image {
   background-repeat: no-repeat;
   height: 110vh;
   background-position: top left;
@@ -229,19 +277,29 @@ a:active {
   margin-left: 15%;
 }
 
-.page3-image {
+.page3-text {
   background-image: url("./assets/page3.jpg");
-  
+  margin-top: 20%;
+  background-repeat: no-repeat;
+  height: 320px;
 }
 
-.page4-image {
+.page4-text {
   background-image: url("./assets/page4.jpg");
-  
+  margin-top: 20%;
+  background-repeat: no-repeat;
+  height: 320px;
 }
 
-.page5-image {
+.page5-text {
+  margin-top: 20%;
+  background-repeat: no-repeat;
+  height: 320px;
+  border: 2px solid transparent;
+}
+
+.page5-text {
   background-image: url("./assets/page5.jpg");
-  
 }
 
 .icon-section,
@@ -273,4 +331,27 @@ a:active {
   width: 250px;
   margin-right: -150px;
   margin-left: 30px;
+}
+
+hr.line {
+  width: 85%;
+  border-top: 1px solid #b0b8bc;
+  margin: auto;
+}
+
+.full-footer {
+  margin-top: -200px;
+  background-color: #e7ecff;
+}
+
+.social {
+  display: flex;
+  color: #b0b8bc;
+  font-size: 25px;
+  margin-left: 135px;
+}
+
+.social-items {
+  margin-left: 30px;
+  margin-right: 30px;
 }

@@ -1,3 +1,4 @@
+import Button4 from "../Button components/Button4";
 
 function Page5() {
     return (
@@ -15,6 +16,7 @@ function Page5() {
                 </p>
               </div>
             </div>
+                <Button4 button4="Purchase Now" />
           </div>
         </div>
       </>

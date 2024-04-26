@@ -1,7 +1,7 @@
-import Button2 from "./Button components/Button2";
-import Button3 from "./Button components/Button3";
+import Button2 from "../Button components/Button2";
+import Button3 from "../Button components/Button3";
 
-function Body() {
+function Page1() {
   return (
     <>
       <div className="page1">
@@ -31,4 +31,4 @@ function Body() {
   );
 }
 
-export default Body;
+export default Page1;
